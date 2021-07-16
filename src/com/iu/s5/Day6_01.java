@@ -54,7 +54,7 @@ public class Day6_01 {
 					int pick = sc.nextInt();
 					int [] ar3 = new int [ar.length-1];
 					if(pick==1) {
-						for(int i=0; i<ar.length-1; i++) {
+						for(int i=0; i<ar3.length; i++) {
 							ar3[i]=ar[i];
 						} 
 						ar=ar3;
